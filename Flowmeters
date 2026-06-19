@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flow Meter</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="content">
+
+<h1>Flow Meters</h1>
+
+<table>
+
+<tr>
+<th>Name</th>
+<th>Site</th>
+<th>Type</th>
+<th>Flow Rate</th>
+<th>Totalizer</th>
+<th>Usage</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>FM01</td>
+<td>Site A</td>
+<td>Inlet</td>
+<td>120 L/min</td>
+<td>15000</td>
+<td>5000</td>
+<td>Active</td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>
