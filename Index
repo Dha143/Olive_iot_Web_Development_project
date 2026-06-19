@@ -1,0 +1,44 @@
+1. index.html (Login Page):
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Water Monitoring Login</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="login-body">
+
+<div class="login-container">
+
+<h1>💧 OliveIoT Water Monitoring</h1>
+
+<input type="email" id="email" placeholder="Email">
+
+<input type="password" id="password" placeholder="Password">
+
+<select id="role">
+<option>Super Admin</option>
+<option>Site Admin</option>
+<option>Maintenance Operator</option>
+<option>Client Viewer</option>
+</select>
+
+<button onclick="login()">Login</button>
+
+<p id="msg"></p>
+
+<p>
+Demo Login<br>
+admin@example.com<br>
+admin123
+</p>
+
+</div>
+
+<script src="js/login.js"></script>
+
+</body>
+</html>
+
+
