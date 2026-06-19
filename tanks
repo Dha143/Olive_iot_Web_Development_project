@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tank Monitoring</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="content">
+
+<h1>Tank Monitoring</h1>
+
+<div class="cards">
+
+<div class="card">
+<h3>Main Tank</h3>
+<p>Site A</p>
+<p>Capacity: 10000 L</p>
+<p>Level: 75%</p>
+
+<div class="progress">
+<div class="progress-bar" style="width:75%"></div>
+</div>
+
+<p>Volume: 7500 L</p>
+<p>Sensor: Active</p>
+</div>
+
+<div class="card">
+<h3>Reserve Tank</h3>
+<p>Site B</p>
+<p>Capacity: 8000 L</p>
+<p>Level: 35%</p>
+
+<div class="progress">
+<div class="progress-bar" style="width:35%"></div>
+</div>
+
+<p>Volume: 2800 L</p>
+<p>Sensor: Active</p>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
